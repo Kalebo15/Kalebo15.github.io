@@ -1,0 +1,75 @@
+#palette-1 {
+    font-family:cursive;
+    text-align: center;
+    }
+    #p1-c1 {
+        color:black;
+        background-color: #FF99C8;
+        padding: 24px;
+        text-align:center;
+        font-family:cursive;
+    }
+    #p1-c2 {
+    color:black;
+        background-color:#FCF6BD;
+        padding: 24px;
+        text-align:center;
+        font-family:cursive;
+}    
+    #p1-c3 {
+        color:black;
+        background-color: #A9DEF9;
+        padding: 24px;
+        text-align:center;
+        font-family:cursive;
+}
+#palette-2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+    #p2-c1 {
+        color:black;
+        background-color: #CB9CF2;
+        padding: 24px;
+        text-align:left;
+        font-family: 'Times New Roman', Times, serif;
+}
+    #p2-c2 {
+        color:black;
+        background-color: #616283;
+        padding: 24px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+}
+    #p2-c3 {
+        background-color: #0e1116;
+        color:azure;
+        padding:24px;
+        text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+#palette-3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+    #p3-c1 {
+        color:black;
+        background-color:#dbd8f0;
+        padding: 24px;
+        text-align:right;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #p3-c2 {
+        color:black;
+        background-color:#7fbeeb;
+        padding: 24px;
+        text-align: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #p3-c3 {
+        color:black;
+        background-color: #eac5d8;
+        padding: 24px;
+        text-align: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
