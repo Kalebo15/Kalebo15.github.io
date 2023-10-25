@@ -1,0 +1,72 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    background-color:lavender;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: 24px;
+    padding: 24px;
+    font-family: cursive;
+    text-align: center;
+}
+.pink-post-it {
+    background-color:pink;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: 24px;
+    padding: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img {
+    width:100%;
+}
+.black-post-it {
+    background-color: black;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: 24px;
+    padding: 24px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color:aliceblue
+}
+.yellow-post-it {
+    background-color: palegoldenrod;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: 24px;
+    padding: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    text-align: center;
+}
+.blue-post-it {
+    background-color: lightblue;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: 24px;
+    padding: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    text-align: center; 
+}
+.green-post-it {
+    background-color: lightgreen;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: 24px;
+    padding: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    text-align: center;    
+}
