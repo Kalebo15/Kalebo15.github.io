@@ -1,0 +1,13 @@
+div {
+    border: 5px dotted black;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: lightskyblue;
+}
+p {
+    border: 20px dotted blue;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: lightcyan;
+    border-radius: 48px;
+}
