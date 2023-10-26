@@ -1,0 +1,12 @@
+#navbar {
+    text-align: center;
+    padding: 23px;
+    background-color: lavender;
+}
+#navbar a {   
+color: black;
+text-decoration: none;
+}
+p a { 
+    color: purple;
+}
