@@ -37,3 +37,16 @@
     background-color: red;
     border-color: red;
 }
+.purple {
+    background-color: purple;
+    border-color: purple;
+}
+.blue {
+    background-color: blue;
+    border-color:blue;
+}
+.green2 {
+    background-color: green;
+    border-color: green;
+    padding-right: 24px 48px;
+}
