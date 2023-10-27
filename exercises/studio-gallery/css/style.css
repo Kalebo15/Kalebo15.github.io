@@ -29,10 +29,11 @@ img {
     border: 3px solid lightblue;
     margin: 20px 30px 0px;
     box-shadow: -3px -1px 5px black;
-    width: 110px;
+    width: 150px;
 }
 .frame-2 div { 
-    padding: 120% lightblue;
+    background-color: lightblue;
+    padding: 0px;
     box-shadow: inset -1px 1px 2px;
 }
 .frame-3 img {
@@ -40,13 +41,11 @@ img {
 }
 .frame-3 {
     border: 7px solid;
-    margin: 20px 12px 0px;
-    box-shadow: -3px -1px 5px black;
-    width: 70px;
-    
+    margin: 5px 12px 0px;
+    box-shadow: -3px -1px 5px black;   
 }
 .frame-3 div { 
-    padding: 100%;
+    padding: 22px;
     background-color: black;
     box-shadow: inset -1px 1px 2px;
 }
