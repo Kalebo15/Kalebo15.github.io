@@ -10,3 +10,23 @@ text-decoration: none;
 p a { 
     color: purple;
 }
+p.warning {
+    color:coral;
+}
+p.warning a {
+    color: blue;
+    font-size: 48px;
+    display: block;
+}
+ul {
+    color: green;
+}
+ul a {
+    color: grey;
+}
+ul p a {
+    color:purple;
+}
+ul div a {
+    color:orange;
+}
