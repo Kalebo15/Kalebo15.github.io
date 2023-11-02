@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
 }
 
 body {
@@ -9,11 +8,16 @@ body {
 }
 
 .ts1989-container {
-    margin-left: auto;
-    width: 100%;
     background-color: lightblue;
 }
 
+#ts1989 img, #ts1989 div {
+    display: inline-block;
+}
+
+#ts1989 div {
+    width: 75%;
+}
 .speaknow-container {
     margin-left: auto;
     margin-right: auto;
@@ -23,53 +27,39 @@ body {
 
 .red-container {
     margin-right: auto;
-    width: 100;
     padding: 48px 0px;
     background-color: saddlebrown;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-#ts1989, #red, #speaknow {
-display: inline-block;
-}
-
 .ts1989-container img,
 .red-container img,
 .speaknow-container img {
-    width: 250px;
+    width: 20%;
+    display: inline-block;
 }
 
 #ts1989 {
-    margin-left: 300px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
-    padding: 60px;
-    padding-top:90px;
-    
+    width: 80%;
 }
 
-.ts1989-container img {
-    margin-bottom: 50px;
-    margin-top: -300px;
-}
 #ts1989 h6{
     margin: 50px 50px;
     
 }
 
-.speaknow-container img {
-    margin-left: 400px;
-    padding-bottom: 10px;
-    margin-top: 50px
+.speaknow-container {
+    background-color: plum;
 }
 
 #speaknow {
-    margin-bottom: -3000px;
-    margin-right: 400px;
-    margin-left: 50px;
-    padding: 20px;
-    padding-bottom: 200px;
-    background-color: plum;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #speaknow h6 {
@@ -77,7 +67,10 @@ display: inline-block;
     margin-top: 50px;
 }
 
-
+#speaknow div {
+    width: 70%;
+    display: inline-block;
+}
 #red {
     margin-left: 300px;
     margin-bottom: 50px;
