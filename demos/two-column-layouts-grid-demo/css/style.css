@@ -1,0 +1,37 @@
+* {
+    #box-sizing:
+    border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#grid-layout {
+    display: grid;
+}
+#sidebar-content {
+    background-color: lightblue;
+}
+#main-content {
+    background-color: lightgreen;
+}
+#sidebar-content h2 {
+    background-color: tomato;
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+}
+#sidebar-content ul {
+    background-color: #ffe5e0;
+    border: 1px solid black;
+    margin: 0px 0px 36px;
+}
+#sidebar-content a {
+    color: black;
+    text-decoration: none;
+}
+#sidebar-content li {
+    border-bottom: 1px solid black;
+    Padding: 8px 0px;
+}

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#grid-layout {
+    display: grid;
+    grid-template-columns: 2fr 800px;
+    grid-template-areas: "content sidebar";
+}
+#sidebar-content {
+    grid-area: sidebar;
+    padding: 18px;
+}
+#sidebar-content-2 {
+    border: 1px solid black;
+    margin: 0px 0px 36px;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+#sidebar-content a {
+    color: red;
+    text-decoration: none;
+}
+#main-content {
+    background-color: black;
+    color: peachpuff;
+    grid-area: content;
+}
+
+#main-content img {
+    width: 70%
+}
