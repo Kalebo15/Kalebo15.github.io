@@ -45,7 +45,30 @@
     grid-area: two;
 }
 /* Drill 5 - Write your code solution below */
-
+#container-d5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one one one"
+        "two two two"
+        ;
+}
 
 /* Drill 6 - Write your code solution below */
-
+#container-d6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "one two"
+        "three three"
+        ;
+}
+#d6-cell1 {
+    grid-area: one;
+}
+#d6-cell2 {
+    grid-area: two;
+}
+#d6-cell3 {
+    grid-area: three;
+}
