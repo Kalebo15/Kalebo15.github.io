@@ -12,17 +12,19 @@ body {
 }
 #sidebar-content {
     grid-area: sidebar;
-    padding: 18px;
+    padding: 0px;
+    background-color: white; 
 }
 #sidebar-content-2 {
     border: 1px solid black;
-    margin: 0px 0px 36px;
+    margin: 50px 100px 100px;
     list-style-type: none;
     padding: 0px 12px;
 }
 #sidebar-content a {
     color: red;
     text-decoration: none;
+
 }
 #main-content {
     background-color: black;
