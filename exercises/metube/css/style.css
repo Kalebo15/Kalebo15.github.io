@@ -16,11 +16,19 @@ body {
     grid-area: header;
     padding: 0px 36px;
 }
+#header-2 {
+    grid-area: header;
+    padding: 0px 100px 10px 500px;
+    font-family: cursive;
+}
 #header a {
     text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: lightpink;
 }
 #header #me {
-    color: #111;
+    color: palevioletred;
 }
 #header #tube {
     color: white;
@@ -52,6 +60,9 @@ body {
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(254, 200, 219);
+    padding: 15px 10px 1px;
+    margin: 0px 40px 12px 40px;
 }
 .metube-item {
     flex: 250px;
@@ -60,8 +71,8 @@ body {
 }
 
 .metube-item .thumbnail-placeholder {
-    aspect-ratio: 16 / 9;
-    border-radius: 8px;
+    aspect-ratio: 16/9;
+    border-radius: 50px;
 }
 .metube-item h4 a {
     text-decoration: none;
@@ -74,4 +85,11 @@ body {
 }
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+.metube-item .thumbnail-placeholder img {
+    border-radius: 8px;
+    width: 300px;
+}
+#grid-layout {
+    background-color: rgb(237, 226, 233);
 }
