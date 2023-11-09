@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar main";
+}
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+}
+#header-2 {
+    grid-area: header;
+    padding: 0px 100px 10px 500px;
+    font-family: cursive;
+}
+#header a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: lightpink;
+}
+#header #me {
+    color: palevioletred;
+}
+#header #tube {
+    color: white;
+    background-color: palevioletred;
+    padding: 4px;
+    border-radius: 12px;
+}
+#sidebar {
+    padding: 0px 24px;
+    grid-area: sidebar;
+}
+#sidebar ul {
+    list-style-type: none;
+    padding: 12px 0px;
+    margin: 0px;
+    border-bottom: 1px solid #aaa;
+}
+#sidebar ul a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    padding: 12px;
+}
+#sidebar ul a:hover {
+    background-color: palevioletred;
+    border-radius: 12px;
+}
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(254, 200, 219);
+    padding: 15px 10px 1px;
+    margin: 0px 40px 12px 40px;
+}
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item .thumbnail-placeholder {
+    aspect-ratio: 16/9;
+    border-radius: 50px;
+}
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+}
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+.metube-item .video-channel {
+    margin-bottom: 4px;
+}
+.metube-item .thumbnail-placeholder img {
+    border-radius: 8px;
+    width: 300px;
+}
+#grid-layout {
+    background-color: rgb(237, 226, 233);
+}
