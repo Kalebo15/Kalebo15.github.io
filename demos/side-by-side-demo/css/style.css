@@ -94,9 +94,16 @@ body {
     padding: 24px;
 }
 
-.comparisons-layout-1 .comparisons-column h4,
-.comparisons-layout-1 .comparisons-column p {
+.comparisons-layout-1 .comparison-column h4,
+.comparisons-layout-1 .comparison-column p {
     padding: 24px 48px;
+}
+
+.comparisons-layout-1 .comparison-column h4 {
+    background-color: #8122ed;
+    color: #bfefff;
+    font-size: 24px;
+    margin: 0px
 }
 
 .comparisons-layout-1 .comparison-column p {
@@ -145,3 +152,4 @@ body {
 
 .comparisons-layout-3 .label {
     font-weight: bold;
+}
