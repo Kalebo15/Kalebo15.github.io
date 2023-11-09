@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#card-section {
+    ;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background-color: lightblue;
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    padding: 36px;
+    flex: 1;
+}
+
+.side-by-side .image-container img {
+    width: 115%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+    text-align: right;
+}
+
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 42px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 2px solid black;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    color: blue;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 20px;
+    margin: 24px 0px 0px;
+}
+
+.comparisons-container {
+    text-align: center;
+    margin: 60px 0px;
+    padding: 50px;
+}
+
+.comparisons-container h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.comparisons-layout-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.comparisons-layout-1 .comparison-column {
+    background-color: black;
+    color: #bfefff;
+    border: 3px solid blue;
+    padding: 24px;
+}
+
+.comparisons-layout-1 .comparison-column h4,
+.comparisons-layout-1 .comparison-column p {
+    padding: 24px 48px;
+}
+
+.comparisons-layout-1 .comparison-column h4 {
+    background-color: blue;
+    color: #bfefff;
+    font-size: 24px;
+    margin: 0px
+}
+
+.comparisons-layout-1 .comparison-column .label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
