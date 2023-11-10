@@ -18,9 +18,9 @@ body {
 }
 
 #hero-1 h4 {
-    font-size: 10px;
-    padding-left: 60px;
-    padding-bottom: 60px;
+    font-size: 40px;
+    padding-left: 70px;
+    padding-bottom: 50%;
     color: darkred;
 }
 
@@ -30,9 +30,6 @@ body {
     display: inline-block;
     padding: 24px;
     justify-content: left;
-}
-.spacer {
-    height: 50vh;
 }
 
 #hero-2 {
@@ -46,24 +43,28 @@ body {
 }
 
 #hero-2 h2 {
-    font-size: 8vw;
-    margin-bottom: 5vh;
-    margin-right: 5vw;
+    font-size: 50px;
+    margin: 12px auto;
+    color: antiquewhite;
 }
 
 #hero-2 h4 {
-    font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
+    font-size: 10px;
+    color: antiquewhite;
+    margin: 0px 32px;
+    padding: 24px;
+    display: flex;
 }
 
 #hero-2 a {
-    font-size: 1.5vw;
+    font-size: 20px;
+    border-radius: 12px;;
     display: inline-block;
-    background-color: #333333;
-    color: white;
+    background-color: antiquewhite;
+    color: black;
     text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    padding: 12px;
+    margin: 5px 5px 10px 0px;
 }
 
 #hero-3 {
@@ -75,9 +76,9 @@ body {
 }
 
 #hero-3 .hero-content {
-    position: absolute;
-    top: 10%;
-    left: 15%;
+color: black;
+margin: 10px 10px 10px 10px;
+padding: 6px;
 }
 
 #hero-3 h2 {
@@ -86,15 +87,18 @@ body {
 
 #hero-3 h4 {
     font-size: 24px;
-    margin: 0px 5px 0px 0px;
+    margin: 0px 15px 0px 10px;
+    color: black;
+    font-style: italic;
 }
 
-#hero-3 a {
-    font-size: 1.5vw;
+#hero-3 a, #hero-1 a {
+    font-size: 24px;
     display: inline-block;
-    background-color: #333333;
+    background-color: brown;
     color: white;
     text-decoration: none;
-    padding: 24px;
-    margin: 20% 50%;
+    padding: 14px 48px;
+    margin: 50px 80px;
+    border-radius: 3px;
 }
