@@ -99,18 +99,24 @@ body {
     color: #bfefff;
     border: 3px solid blue;
     padding: 24px;
+    margin: 0px 12px;
+
+    
 }
 
 .comparisons-layout-1 .comparison-column h4,
 .comparisons-layout-1 .comparison-column p {
-    padding: 24px 48px;
+    padding: 0px 48px;
 }
 
 .comparisons-layout-1 .comparison-column h4 {
     background-color: blue;
     color: #bfefff;
     font-size: 24px;
-    margin: 0px
+    margin: 0px;
+    border-radius: 8px;
+    padding: 8px;
+    
 }
 
 .comparisons-layout-1 .comparison-column .label {
