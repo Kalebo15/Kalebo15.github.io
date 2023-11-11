@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+
+}
+
+#layout {
+    max-width: 800px;
+    margin: 52px auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.theatre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+}
+    
+.hero-1 {
+    background-image: url("../images/movies_11.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}   
+
+.hero-1 h1, h3 {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 60%;
+}
+h3 {
+    background-color: white;
+    padding: 12px;
+    margin: auto 15px 500px 5px;
+    border-radius: 4px;
+    font-family:fantasy;
+}
+
+.theatre {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    padding: 18px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.theatre img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 4px;
+}
+
+
