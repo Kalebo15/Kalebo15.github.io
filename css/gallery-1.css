@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/pinkstars.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+    
+}
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
