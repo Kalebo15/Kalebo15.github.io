@@ -7,13 +7,22 @@ body {
     font-family: sans-serif;
 }
 
-#hero {
-    background-image: url("../images/pinkstars.png");
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
+#nav-bar {
+    justify-content: space-between;
+    background-color: rgb(206, 104, 156);
+    padding: 12px;
+}
+
+#nav-bar a {
+    justify-content: space-between;
+    color: rgb(255, 207, 232);
+    padding: 5px;
+}
+
+img {
+    width: 250px;
+    margin: 50px 80px 30px 70px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    
 }
