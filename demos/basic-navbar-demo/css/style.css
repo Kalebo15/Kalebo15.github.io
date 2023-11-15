@@ -7,6 +7,16 @@ body {
     font-family: sans-serif;
 }
 
+#header {
+    /*
+        Below is how you can make your navbar follow you as
+        you scroll the page.
+    */
+    position: sticky;
+    top: 0px;
+}
+/* navbar styles */
+
 #navbar {
     background: linear-gradient(to bottom, green, #3e603e);
     display: flex;
@@ -50,4 +60,51 @@ body {
     margin: 48px auto;
     font-size: 24px;
     height: 200vh; 
+}
+
+#navbar-bottom {
+    background: linear-gradient (to bottom, yellowgreen, olive);
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+#footer {
+    background-color: teal;
+    color: white;
+    padding: 12px;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar a {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-columns-navbar a {
+    padding: 8px 0px;
 }
