@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    /*
+        Below is how you can make your navbar follow you as
+        you scroll the page.
+    */
+    position: sticky;
+    top: 0px;
+}
+/* navbar styles */
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(151, 94, 24), #ce8958);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*
+        Below is how you can make your navbar follow you as
+        you scroll the page.
+    */
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}

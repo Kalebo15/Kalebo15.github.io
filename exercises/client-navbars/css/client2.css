@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    /*
+        Below is how you can make your navbar follow you as
+        you scroll the page.
+    */
+    position: sticky;
+    top: 0px;
+}
+/* navbar styles */
+
+#navbar {
+    background: linear-gradient(to bottom, red, orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*
+        Below is how you can make your navbar follow you as
+        you scroll the page.
+    */
+    position: sticky;
+    top: 0px;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color: orangered;
+    border-radius: 24px;
+    padding: 10px 24px;
+    font-size: 17px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
