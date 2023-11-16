@@ -72,11 +72,13 @@ img {
 
 .cardsdoo {
     position: relative;
+    flex: 50%;
 }
 
 .cardsdoo p {
     position: absolute;
-    background-color: red;
+    z-index: 1;
+    background-color: white;
     border: 3px solid black;
     border-radius: 12px;
     box-shadow: 4px 4px 4px #00000033;
@@ -85,7 +87,7 @@ img {
     padding: 24px;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-8px);
+    transform: translateY(-12px);
     transition: 
         opacity 0.5s,
         visibility 0.5s,
@@ -96,4 +98,94 @@ img {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
+}
+
+#scooby-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#toystory {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#toystory .card-front,
+#toystory .card-back {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 25%;
+}
+
+#toystory .card-back {
+    transform: scaleX(0);
+}
+
+#toystory .card-front{
+    background-image: url("../images/maxresdefault.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#toystory .card-front {
+    transition: transform 0.15s 0.15s;
+}
+
+#toystory .card-back {
+    transition: transform 0.15s;
+}
+
+#toystory:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.15s;
+}
+
+#toystory:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.15s;
+}
+
+#toystory2 .card-front{
+    background-image: url("../images/Toy-Story-Buzz-Woody.avif");
+    background-size: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: 150%;
+    position: absolute;
+}
+
+#toystory3 .card-front{
+    background-image: url("../images/woody.jpeg");
+    background-size: cover;
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#toystory2 .card-front,
+#toystory2 .card-back {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 25%;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+#toystory3 .card-front,
+#toystory3 .card-back {
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 25%;
+    text-align: center;
+    background-color: black;
+    color: red;
+    font-weight: bolder;
 }
