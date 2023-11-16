@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid rgb(42, 67, 96);
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+    background-color: wheat
+}
+
+#card1:hover, #card2:hover, #card3:hover {
+    background-color: lightblue;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card1 {
+    transition: 
+        background-color 0.10s,
+        box-shadow 0.10s,
+        transform 0.7s;
+}
+#card1 .card-content {
+    transition:
+        opacity 0.5s;
+        visibility 0.5s;
+}
+
+#card1:hover .card-content {
+    opacity: 0;
+    visibility: hidden;
+}
+
+img {
+    width: 50%;
+}
+
+.cards img {
+    width: 50%;
+}
+
+.cards {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+.cardsdoo {
+    position: relative;
+}
+
+.cardsdoo p {
+    position: absolute;
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+.cardsdoo:hover p {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
