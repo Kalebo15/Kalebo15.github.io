@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#error {
+    color: red;
+    font-size: 24px;
+}
+
+#container {
+    background-color: black;
+    padding: 2px;
+}
+
+#code {
+    color: red;
+    font-size: 24px;
+}
