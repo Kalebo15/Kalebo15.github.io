@@ -102,21 +102,22 @@ body {
 
 #hero-3 h4 {
     font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
+    margin: 50%;
 }
 
-#hero-3 a {
-    font-size: 1.5vw;
+h2 {
+    font-size: 14px;
     display: inline-block;
-    background-color: #333333;
+    background-color: pink;
     color: white;
     text-decoration: none;
-    padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    padding: 12px;
+    margin: 70px;
 }
 
 #ashlyn img {
     width: 200px;
+    height: 250px;
     margin-left: 40%;
     display: inline-flexbox;
 }
@@ -124,4 +125,9 @@ body {
 #content {
     text-align: left;
     display: inline-flexbox;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: -4px -4px 4px #00000033;
 }
