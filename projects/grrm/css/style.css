@@ -7,7 +7,7 @@
 body {
     background-image: 
         linear-gradient(#DDDDDD66, #DDDDDD66),
-        url("../images/granite.jpg");
+        url("../images/granite.png");
     background-size: cover;
 }
 
@@ -500,7 +500,6 @@ body {
         
     }
 
-    #
     #shield-image {
         visibility: hidden;
     }
