@@ -7,22 +7,65 @@ body {
     font-family: sans-serif;
 }
 
-#nav-bar {
-    justify-content: space-between;
-    background-color: rgb(206, 104, 156);
+#navbar {
+    background-color: rgb(219, 37, 131);
     padding: 12px;
-}
-
-#nav-bar a {
     justify-content: space-between;
-    color: rgb(255, 207, 232);
-    padding: 5px;
 }
 
-img {
-    width: 250px;
-    margin: 50px 80px 30px 70px;
+#navbar a {
+    justify-content: space-between;
+    color: rgb(63, 18, 41);
+    padding: 6px 30px;
+    text-decoration: none;
+    background-color: rgb(255, 196, 251);
+    border-radius: 30px;
+}
+.about-me {
+    background-image: url("../images/pinkstars.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.about-me a {
+    background-color: rgb(206, 104, 156);
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
     display: flex;
     flex-wrap: wrap;
-    
+    margin: 50% 30px 60px 0px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size:80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 40px 30px 70px;
+    padding: 30px 90px;
+    background-color: pink;
+    font-weight: 600;
+    border-radius: 90px;
+}
+h3 {
+    margin: 30px 50px -190px 25px;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 480px) {
+    #navbar {
+    display: flex;
+    flex-wrap: wrap;
+    }
 }

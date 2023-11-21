@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-    background-color: rgb(148, 71, 111);
+    background-color: rgb(219, 37, 131);
     padding: 12px;
     justify-content: space-between;
 }
@@ -61,4 +61,11 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     font-weight: lighter;
+}
+
+@media screen and (max-width: 480px) {
+    #navbar {
+    display: flex;
+    flex-wrap: wrap;
+    }
 }
