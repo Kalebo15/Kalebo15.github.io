@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header, #footer {
+    width: 100vw;
+}
+
+#header {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+#navbar {
+    background-color: #000000;
+    width: 100%;
+
+}
+#navbar a {
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color:#A24440;
+    padding: 12px;
+
+}
+
+#logo img {
+    display: inline;
+    align-items: flex-start;
+    width: 2rem;
+}
+.hero h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#cta-button a {
+    display: inline-block;
+    background-color: #E0D6AD;
+    color: #A24440;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 30px;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-color: #E8BC9E;
+    color: #A24440;
+    text-decoration: none;
+    text-align: center;
+    background-image: url(../images/pizza.jpg);
+    
+}
+#about-us {
+    padding: 30px;
+    width: 350px;
+    border-radius: 37px;
+    background-color: pink;
+    margin-left: 25%;    
+}
+
+#footer {
+    color: white;
+}
+
+#footer-navbar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-columns-navbar {
+    width: 100%;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar a {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+}
+
+.links a {
+    color: #f8d6c0;
+    text-decoration: none;
+}
+
+#social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 100%;
+    margin-left: auto;
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    #header {
+        display:flex;
+        flex-direction: column;
+    }
+    #logo img {
+        width: 200px;
+    }
+    
+    #about-us {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        padding: 24px;
+    }
+    
+    #about-us h3 {
+        font-size: x-large;
+    }
+    #footer-navbar {
+        flex-direction: column;
+    }
+
+    #social-selection {
+        flex-direction: column;
+    }
+    
+    .hero {
+        padding: 50px;
+    }
+    #footer-columns-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #navbar {
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
