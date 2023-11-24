@@ -107,6 +107,7 @@ h4, h5 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 24px;
     background-color: #000000;
 }
 
@@ -137,7 +138,7 @@ h4, h5 {
 #social-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     flex: 100%;
     margin-left: auto;
     
@@ -195,6 +196,7 @@ h4, h5 {
 
     #footer-columns-navbar a {
         flex-direction: column;
+        align-items: center;
     }
     #cta-button {
         width: 100%;

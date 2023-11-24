@@ -483,24 +483,27 @@ body {
         "blog" "aside" "footer" "bottom";
     }
 
-    #navbar {
+    #nav {
         flex-direction: column;
     }
 
     #nav a {
-        flex: 800px; 
+        flex: 500px; 
         flex-wrap: wrap;  
     }
     #header {
         flex-direction: column;
     }
 
-    #social-section a {
-        
-        
+    #social-section form {
+        display: none; 
     }
 
     #shield-image {
-        visibility: hidden;
+        display: none;
+    }
+
+    #header h1 {
+        font-size: 31px;
     }
 }
