@@ -21,16 +21,16 @@ body {
     background-color: yellow;
     margin: 24px;
     width: 350px;
-    height: 500px;
+    height: 600px;
     border-radius: 9px;
     border: 17px solid gold;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .card-style-3 img {
-    width: 100%;
-    height: 160px;
+    width: 300px;
+    height: auto;
     border: solid 5px goldenrod;
 }
 
@@ -48,11 +48,64 @@ body {
 
 .description {
     text-align: center;
-    background-color: red;
+    font-size: 15px;
+    font-weight: light;
+
+}
+.attack {
+    display: flex;
+    padding: 18px;
 
 }
 
-.attack .power .energy {
-    text-align: right;
+.bold {
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.power {
     font-size: x-large;
+    font-weight: bold;
+}
+
+.data {
+    margin: 12px 18px;
+    padding: 2px 8px;
+    font-size: 12px;
+    border: solid goldenrod;
+}
+
+.pokemon-header {
+    margin: 2px 0px;
+    padding-bottom: 4px
+}
+
+.energy, .power {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-around;
+}
+/* BULBASAUR CARD */
+
+#pokemon-card-1 .data {
+margin-top: 40px;
+}
+
+#pokemon-card-1 .attack {
+    margin: 10px 0px;
+}
+
+/* Nidoran card*/
+#pokemon-card-2 .data {
+    margin-top:  64px;
+}
+
+#pokemon-card-2 .attack {
+    margin: 10px 0px;
+}
+
+/* CHARMANDER CARD*/
+#pokemon-card-3 .data {
+    background-color: red;
 }
