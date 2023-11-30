@@ -21,11 +21,13 @@ body {
     background-color: yellow;
     margin: 24px;
     width: 350px;
-    height: 600px;
+    height: auto;
     border-radius: 9px;
     border: 17px solid gold;
     border-radius: 10px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-style-3 img {
@@ -55,6 +57,9 @@ body {
 .attack {
     display: flex;
     padding: 18px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -106,6 +111,4 @@ margin-top: 40px;
 }
 
 /* CHARMANDER CARD*/
-#pokemon-card-3 .data {
-    background-color: red;
-}
+#pokemon-card-3 {}
