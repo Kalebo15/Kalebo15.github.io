@@ -4,25 +4,28 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #navbar {
-    background-color: rgb(219, 37, 131);
+    background-color: rgb(32, 32, 43);
     padding: 12px;
     justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }
 
 #navbar a {
+    display: flex;
+    flex: 1;
     justify-content: space-between;
-    color: rgb(63, 18, 41);
-    padding: 6px 30px;
+    color: rgb(18, 34, 63);
     text-decoration: none;
-    background-color: rgb(255, 196, 251);
-    border-radius: 30px;
+    background-color: rgb(128, 138, 159);
+    border-radius: 10px;
 }
 .about-me {
-    background-image: url("../images/pinkstars.png");
+    background-image: url("../images/bluestars.png");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -33,7 +36,7 @@ body {
 }
 
 .about-me a {
-    background-color: rgb(206, 104, 156);
+    background-color: rgb(51, 80, 121) ;
     color: white;
     border-radius: 8px;
     padding: 8px;
@@ -48,12 +51,12 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     font-size:80px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: 'Times New Roman', Times, serif ;
     margin: 40px 30px 70px;
-    padding: 30px 90px;
-    background-color: pink;
-    font-weight: 600;
-    border-radius: 90px;
+    padding: 3px 30px;
+    background-color: rgb(192, 218, 255);
+    font-size: 30px;
+    border-radius: 10px;
 }
 h3 {
     margin: 30px 50px -190px 25px;
@@ -67,5 +70,6 @@ h3 {
     #navbar {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     }
 }
