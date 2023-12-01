@@ -17,12 +17,12 @@ body {
 
 #navbar a {
     display: flex;
-    flex: 1;
+    padding: 3px 4px;
     justify-content: space-between;
     color: rgb(18, 34, 63);
     text-decoration: none;
     background-color: rgb(128, 138, 159);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .about-me {
     background-image: url("../images/bluestars.png");
