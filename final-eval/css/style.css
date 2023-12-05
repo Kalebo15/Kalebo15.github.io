@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.teams img{
+    min-width: 200px;
+    max-width: 400px;
+    margin: 0px auto;
+    display: flex;
+    flex: 1;
+}
+.section2 {
+    justify-content: space-between;
+
+    display: inline-block;
+    padding: 12px;
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+a {
+    font-size: 18px;
+    font-weight: bold;
+    border: solid rgb(1, 1, 1) 3px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(193, 85, 85);
+    color: white;
+    padding: 18px 36px;
+    border-radius: 48px;
+}
+
+
+a:hover {
+    font-size: 18px;
+    font-weight: bold;
+    border: solid rgb(193, 85, 85);
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 18px 36px;
+    border-radius: 48px;
+    transition: .5s;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        margin-right: 12px;
+        padding:22px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
