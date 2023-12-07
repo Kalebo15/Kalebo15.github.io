@@ -63,6 +63,7 @@ body {
 
 .section1 {
     background-image: url("../images/liam.jpg");
+    filter: grayscale(100%);
     background-size: cover;
     padding: 76px;
     background-position: center 25%;
