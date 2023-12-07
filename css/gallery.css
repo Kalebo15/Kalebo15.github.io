@@ -4,11 +4,11 @@
 
 body {
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #navbar {
-    background-color: rgb(32, 32, 43);
+    background: linear-gradient(to bottom, #000000, #170000);
     padding: 12px 22px;
     justify-content: space-between;
     display: flex;
@@ -19,10 +19,11 @@ body {
     display: flex;
     padding: 3px 8px;
     justify-content: space-between;
-    color: rgb(18, 34, 63);
+    color: #170000;
     text-decoration: none;
-    background-color: rgb(128, 138, 159);
+    background-color: #887177;
     border-radius: 4px;
+    font-size: 12px;
 }
 
 #navbar a:hover {
@@ -31,7 +32,7 @@ body {
     justify-content: space-between;
     color: rgb(18, 34, 63);
     text-decoration: none;
-    background-color: aliceblue;
+    background-color: #cf9eac;
     border-radius: 4px;
     transition: .5s;
     
@@ -46,7 +47,6 @@ body {
     background-color: rgb(189, 196, 202);
     border-radius: 4px;
 }
-
 @media screen and (max-width: 480px) {
     #navbar {
         display: flex;
@@ -62,11 +62,15 @@ body {
 /* gallery */
 
 .section1 {
+    display: flex;
+    align-items: center;
     background-image: url("../images/liam.jpg");
     filter: grayscale(100%);
     background-size: cover;
     padding: 76px;
     background-position: center 25%;
+    position: relative;
+    z-index: 1;
  
 }
 .section2 {
@@ -75,7 +79,7 @@ body {
     justify-content: center;
     position: relative;
     padding: 76px;
-    background: url("../images/graphic.jpg");
+    background: url("../images/brush.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,15 +99,27 @@ body {
 }
 
 #backdrop {
-    background-color: rgb(114, 92, 127);
+    background-color: #887177;
     width: 76%;
     height: 76%;
     position: absolute;
     z-index: -1;
     box-shadow: -4px -4px 4px black;
     backdrop-filter: blur(200px);
-    opacity: 0.9;
+    opacity: .7;
 }
+
+#backdrop2 {
+    background-color: rgb(242, 239, 244);
+    width: 76%;
+    height: 76%;
+    position: absolute;
+    z-index: -1;
+    box-shadow: -4px -4px 4px black;
+    backdrop-filter: blur(200px);
+    opacity: 0.5;
+}
+
 ul {
     display: flex;
     flex-wrap: wrap;
@@ -117,3 +133,24 @@ ul {
 
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+
+
+    }
+    .layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

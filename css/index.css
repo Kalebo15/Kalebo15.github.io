@@ -4,11 +4,11 @@
 
 body {
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #navbar {
-    background-color: rgb(32, 32, 43);
+    background: linear-gradient(to bottom, #000000, #170000);
     padding: 12px 22px;
     justify-content: space-between;
     display: flex;
@@ -19,10 +19,11 @@ body {
     display: flex;
     padding: 3px 8px;
     justify-content: space-between;
-    color: rgb(18, 34, 63);
+    color: #170000;
     text-decoration: none;
-    background-color: rgb(128, 138, 159);
+    background-color: #887177;
     border-radius: 4px;
+    font-size: 12px;
 }
 
 #navbar a:hover {
@@ -31,7 +32,7 @@ body {
     justify-content: space-between;
     color: rgb(18, 34, 63);
     text-decoration: none;
-    background-color: aliceblue;
+    background-color: #cf9eac;
     border-radius: 4px;
     transition: .5s;
     
@@ -47,48 +48,91 @@ body {
     border-radius: 4px;
 }
 
-.about-me {
-    background-image: url("../images/bluestars.png");
+.layout {
+    width: 90vw;
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+.page {
+    background-image: url(../images/snows.jpg);
+    background-position: center center;  
+}
+
+.hero {
     height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     background-repeat: no-repeat;
+    flex-direction: column;
+    
 }
 
-.about-me a {
-    background-color: rgb(51, 80, 121) ;
-    color: white;
-    border-radius: 8px;
+.hero a {
+    background-color:#88717799;
+    color: black;
+    border-radius: 20px;
     padding: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 50% 30px 60px 0px;
     font-weight: lighter;
     text-decoration: none;
+    text-align: center;
+    box-shadow: #170000 -2px 2px 3px;
+    display: inline-block;
+    margin: 12px;
+    
+    
 }
 
-h1 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size:80px;
-    font-family: 'Times New Roman', Times, serif ;
-    margin: 40px 30px 70px;
-    padding: 3px 30px;
-    background-color: rgb(192, 218, 255);
-    font-size: 30px;
-    border-radius: 10px;
-}
-h3 {
-    margin: 30px 50px -190px 25px;
-    font-size: 50px;
-    display: flex;
-    flex-wrap: wrap;
+.hero a:hover {
+    background-color:#cf9eac99;
+    color: black;
+    border-radius: 20px;
+    padding: 8px;
     font-weight: lighter;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    box-shadow: #170000 -2px 2px 3px;
+    
 }
 
+.hero a:active {
+    background-color:aliceblue;
+    color: black;
+    border-radius: 20px;
+    padding: 8px;
+    font-weight: lighter;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    box-shadow: #170000 -2px 2px 3px;
+    
+}
+
+#topcorner {
+    background-color: rgb(242, 239, 244);
+    width: 240px;
+    height: 100px;
+    box-shadow: -4px -4px 4px black;
+    backdrop-filter: blur(200px);
+    opacity: 0.7;
+}
+
+h3 {
+    margin: 12px 12px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    
+}
+
+ul {
+    font-size: 12px;
+    
+}
 @media screen and (max-width: 480px) {
     #navbar {
         display: flex;
@@ -99,4 +143,11 @@ h3 {
 
 
     }
+    #topcorner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }

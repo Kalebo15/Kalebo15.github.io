@@ -4,11 +4,11 @@
 
 body {
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #navbar {
-    background-color: rgb(32, 32, 43);
+    background: linear-gradient(to bottom, #000000, #170000);
     padding: 12px 22px;
     justify-content: space-between;
     display: flex;
@@ -19,10 +19,11 @@ body {
     display: flex;
     padding: 3px 8px;
     justify-content: space-between;
-    color: rgb(18, 34, 63);
+    color: #170000;
     text-decoration: none;
-    background-color: rgb(128, 138, 159);
+    background-color: #887177;
     border-radius: 4px;
+    font-size: 12px;
 }
 
 #navbar a:hover {
@@ -31,7 +32,7 @@ body {
     justify-content: space-between;
     color: rgb(18, 34, 63);
     text-decoration: none;
-    background-color: aliceblue;
+    background-color: #cf9eac;
     border-radius: 4px;
     transition: .5s;
     
@@ -51,10 +52,11 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     font-size:80px;
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
     margin: 25px;
     padding: 25px;
-    background-color: rgb(128, 138, 159);
+    background-color: #cf9eac99;
+    box-shadow: -4px -4px 4px #17000099;
     font-size: 30px;
     border-radius: 10px;
     justify-content: center;
@@ -72,12 +74,37 @@ img {
 }
 
 .button {
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 4px 4px;
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: #170000;
+    text-decoration: none;
+    background-color: #887177;
+    border-radius: 4px;
     font-size: 12px;
     
+}
+
+.button:hover {
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
+    text-decoration: none;
+    background-color: #cf9eac;
+    border-radius: 4px;
+    transition: .5s;
+    
+}
+
+.button:active {
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
+    text-decoration: none;
+    background-color: rgb(189, 196, 202);
+    border-radius: 4px;
 }
 
 .button h3 {
@@ -90,6 +117,11 @@ img {
     align-items: center;
 }
 
+ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
 
 @media screen and (max-width: 480px) {
     #navbar {
@@ -104,5 +136,10 @@ img {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
     }
 }

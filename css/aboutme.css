@@ -4,11 +4,11 @@
 
 body {
     margin: 0px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 #navbar {
-    background-color: rgb(32, 32, 43);
+    background: linear-gradient(to bottom, #000000, #170000);
     padding: 12px 22px;
     justify-content: space-between;
     display: flex;
@@ -19,10 +19,11 @@ body {
     display: flex;
     padding: 3px 8px;
     justify-content: space-between;
-    color: rgb(18, 34, 63);
+    color: #170000;
     text-decoration: none;
-    background-color: rgb(128, 138, 159);
+    background-color: #887177;
     border-radius: 4px;
+    font-size: 12px;
 }
 
 #navbar a:hover {
@@ -31,7 +32,7 @@ body {
     justify-content: space-between;
     color: rgb(18, 34, 63);
     text-decoration: none;
-    background-color: aliceblue;
+    background-color: #cf9eac;
     border-radius: 4px;
     transition: .5s;
     
@@ -46,30 +47,6 @@ body {
     background-color: rgb(189, 196, 202);
     border-radius: 4px;
 }
-
-.about-me {
-    background-image: url("../images/bluestars.png");
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-repeat: no-repeat;
-}
-
-.about-me a {
-    background-color: rgb(51, 80, 121) ;
-    color: white;
-    border-radius: 8px;
-    padding: 8px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 50% 30px 60px 0px;
-    font-weight: lighter;
-    text-decoration: none;
-}
-
 h3 {
     margin: 30px 50px -190px 25px;
     font-size: 50px;
@@ -97,17 +74,120 @@ img {
     object-fit: cover;
     margin-left: 38px;
     border-radius: 3px;
+    box-shadow: -4px 4px 12px #170000;;
 }
-
-#occupation {
+.cards {
+    display: flex;
+}
+.card {
     padding: 12px;
     flex: 1;
+    margin: 12px;
 }
+
+.card-front h2 {
+    color: black;
+    font-size: 22px;
+
+}
+#graphicdesign {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#graphicdesign .card-front,
+#graphicdesign .card-back {
+    background-color: #cf9eac99;
+    padding: 18px;
+    box-shadow: -4px 4px 12px #170000;
+    border-radius: 4px;
+}
+
+#graphicdesign .card-back {
+    transform: scaleX(0);
+}
+
+#graphicdesign .card-back ul {
+    padding: 12px;
+}
+#graphicdesign .card-front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#graphicdesign .card-front {
+    transition: transform 0.25s 0.25s; 
+}
+
+#graphicdesign .card-back {
+    transition: transform 0.25s;
+}
+
+#graphicdesign:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s; 
+}
+
+#graphicdesign:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s; 
+}
+
+/* PHOTOGRAPHY CARD*/
+
+#photography {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#photography .card-front,
+#photography .card-back {
+    background-color: #cf9eac99;
+    padding: 18px;
+    box-shadow: -4px 4px 12px #170000;
+    border-radius: 4px;
+}
+
+#photography .card-back {
+    transform: scaleX(0);
+}
+
+#photography .card-back ul {
+    padding: 12px;
+}
+#photography .card-front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#photography .card-front {
+    transition: transform 0.25s 0.25s; 
+}
+
+#photography .card-back {
+    transition: transform 0.25s;
+}
+
+#photography:hover .card-front {
+    transform: scaleX(0);
+    transition: transform 0.25s; 
+}
+
+#photography:hover .card-back {
+    transform: scaleX(1);
+    transition: transform 0.25s 0.25s; 
+}
+
+/* END OF PHOTOGRAPHY CARD*/ 
 
 h1 {
    flex: 100%;
    padding: 12px;
-   font-family: 'Times New Roman', Times, serif ;
+   font-family: Georgia, 'Times New Roman', Times, serif ;
    border-radius: 10px;
    margin-left: 38px; 
 }
@@ -115,15 +195,6 @@ p {
     padding: 50px;
     align-items: center;
     justify-content: center;
-}
-
-h2 {
-    background-color: rgb(128, 138, 159);
-    padding: 50px 50px;
-    border-radius: 6px;
-    text-align: center;
-    
-    
 }
 
 div {
@@ -140,15 +211,21 @@ div {
 
 
     }
-
+    img {
+        width: 200px;
+        margin: 0px;
+        
+        
+    }
     div {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+
     }
 
     #occupation h2 {
-        box-shadow: -4px 4px 12px #272727;
+        box-shadow: -4px 4px 8px #170000;
     
 
     }
@@ -157,7 +234,4 @@ div {
         align-items: center;
     }
 
-    img {
-        margin: 0px;
-    }
 }

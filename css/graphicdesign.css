@@ -49,59 +49,25 @@ body {
 }
 
 div {
-    background-color: aliceblue;
-
+    background-color: #887177;
 }
-
 h1 {
     display: flex;
-    font-size:80px;
-    font-family: 'Times New Roman', Times, serif ;
-    margin: 50px;
-    padding: 3px 30px;
-    background-color: #cf9eac99;
-    box-shadow: -4px 4px 8px #17000099;
-    font-size: 30px;
-    border-radius: 2px;
     justify-content: center;
 }
-
-#section1 {
-    margin: 50px;
-    padding: 20px;
-    border-radius: 2px;;
-    text-align: center;
-    font-weight: bold;
-    background-image: url("../images/tree.jpg");
-    box-shadow: -4px 4px 12px #17000099;
-    color: black;
-    background-size: cover;
-    font-size: 20px;
-     
+.images {
+    columns: 3 auto;
+    padding: 12px;
 }
-h2 {
-    text-align: center;
     
+img {
+    width: 100%;
+    margin-bottom: 12px;
+    box-shadow: -4px 2px 2px #17000099;
+    border-radius: 2px;
 }
 
-
-@media screen and (max-width: 480px) {
-    #navbar {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        gap: 18px;
-        align-items: center;
-
-
-    }
-
-    .pagecontent {
-        display: flex;
-        flex-direction: column;
-    }
-
-    h2 {
-        font-size: 16px;
-    }
+.section1 {
+    display: flex;
+    justify-content: center;
 }
