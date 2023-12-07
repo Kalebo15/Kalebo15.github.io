@@ -9,7 +9,7 @@ body {
 
 #navbar {
     background-color: rgb(32, 32, 43);
-    padding: 12px;
+    padding: 12px 22px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -17,59 +17,73 @@ body {
 
 #navbar a {
     display: flex;
-    padding: 3px 4px;
+    padding: 3px 8px;
     justify-content: space-between;
     color: rgb(18, 34, 63);
     text-decoration: none;
     background-color: rgb(128, 138, 159);
-    border-radius: 8px;
-}
-.about-me {
-    background-image: url("../images/bluestars.png");
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-repeat: no-repeat;
+    border-radius: 4px;
 }
 
-.about-me a {
-    background-color: rgb(51, 80, 121) ;
-    color: white;
-    border-radius: 8px;
-    padding: 8px;
+#navbar a:hover {
     display: flex;
-    flex-wrap: wrap;
-    margin: 50% 30px 60px 0px;
-    font-weight: lighter;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
     text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    transition: .5s;
+    
 }
+
+#navbar a:active {
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
+    text-decoration: none;
+    background-color: rgb(189, 196, 202);
+    border-radius: 4px;
+}
+
 
 h1 {
     display: flex;
-    flex-wrap: wrap;
     font-size:80px;
     font-family: 'Times New Roman', Times, serif ;
-    margin: 40px 30px 70px;
+    margin: 50px;
     padding: 3px 30px;
     background-color: rgb(192, 218, 255);
     font-size: 30px;
     border-radius: 10px;
 }
-h3 {
-    margin: 30px 50px -190px 25px;
-    font-size: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: lighter;
+
+#section1 {
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-image: url("../images/lights.jpg");
+    color: white;
+    background-size: cover;
+    font-size: 28px;
+     
 }
+h2 {
+    text-align: center;
+    
+}
+
 
 @media screen and (max-width: 480px) {
     #navbar {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+
+
     }
 }

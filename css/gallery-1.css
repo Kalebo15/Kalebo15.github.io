@@ -9,7 +9,7 @@ body {
 
 #navbar {
     background-color: rgb(32, 32, 43);
-    padding: 12px;
+    padding: 12px 22px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -17,12 +17,34 @@ body {
 
 #navbar a {
     display: flex;
-    padding: 3px 4px;
+    padding: 3px 8px;
     justify-content: space-between;
     color: rgb(18, 34, 63);
     text-decoration: none;
     background-color: rgb(128, 138, 159);
-    border-radius: 8px;
+    border-radius: 4px;
+}
+
+#navbar a:hover {
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    transition: .5s;
+    
+}
+
+#navbar a:active {
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
+    text-decoration: none;
+    background-color: rgb(189, 196, 202);
+    border-radius: 4px;
 }
 .about-me {
     background-image: url("../images/bluestars.png");
@@ -52,24 +74,42 @@ h1 {
     flex-wrap: wrap;
     font-size:80px;
     font-family: 'Times New Roman', Times, serif ;
-    margin: 40px 30px 70px;
-    padding: 3px 30px;
-    background-color: rgb(192, 218, 255);
+    margin: 25px;
+    padding: 25px;
+    background-color: rgb(128, 138, 159);
     font-size: 30px;
     border-radius: 10px;
+    justify-content: center;
 }
-h3 {
-    margin: 30px 50px -190px 25px;
-    font-size: 50px;
+h2 {
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    font-weight: lighter;
+    padding-left: 400px
+}
+
+#featured {
+    columns: 3 auto;
+    padding: 12px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 12px;
+
 }
 
 @media screen and (max-width: 480px) {
     #navbar {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+    }
+
+    .header2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }

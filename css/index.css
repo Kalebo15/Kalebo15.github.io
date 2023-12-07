@@ -9,7 +9,7 @@ body {
 
 #navbar {
     background-color: rgb(32, 32, 43);
-    padding: 12px;
+    padding: 12px 22px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -17,13 +17,36 @@ body {
 
 #navbar a {
     display: flex;
-    padding: 3px 4px;
+    padding: 3px 8px;
     justify-content: space-between;
     color: rgb(18, 34, 63);
     text-decoration: none;
     background-color: rgb(128, 138, 159);
-    border-radius: 8px;
+    border-radius: 4px;
 }
+
+#navbar a:hover {
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    transition: .5s;
+    
+}
+
+#navbar a:active {
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
+    text-decoration: none;
+    background-color: rgb(189, 196, 202);
+    border-radius: 4px;
+}
+
 .about-me {
     background-image: url("../images/bluestars.png");
     height: 100vh;
@@ -68,8 +91,12 @@ h3 {
 
 @media screen and (max-width: 480px) {
     #navbar {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+
+
     }
 }

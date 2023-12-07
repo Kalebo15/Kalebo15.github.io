@@ -9,7 +9,7 @@ body {
 
 #navbar {
     background-color: rgb(32, 32, 43);
-    padding: 12px;
+    padding: 12px 22px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -17,12 +17,34 @@ body {
 
 #navbar a {
     display: flex;
-    padding: 3px 4px;
+    padding: 3px 8px;
     justify-content: space-between;
     color: rgb(18, 34, 63);
     text-decoration: none;
     background-color: rgb(128, 138, 159);
-    border-radius: 8px;
+    border-radius: 4px;
+}
+
+#navbar a:hover {
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
+    text-decoration: none;
+    background-color: aliceblue;
+    border-radius: 4px;
+    transition: .5s;
+    
+}
+
+#navbar a:active {
+    display: flex;
+    padding: 3px 8px;
+    justify-content: space-between;
+    color: rgb(18, 34, 63);
+    text-decoration: none;
+    background-color: rgb(189, 196, 202);
+    border-radius: 4px;
 }
 
 .about-me {
@@ -64,15 +86,17 @@ h3 {
 }
 
 .aboutme #mypic {
-    width: 200px;
+    width: 100px;
     margin: 12px;
     flex: 1;
 }
 
 img {
-    width: 100%;
+    width: 75%;
     height: 100%;
     object-fit: cover;
+    margin-left: 38px;
+    border-radius: 3px;
 }
 
 #occupation {
@@ -84,19 +108,56 @@ h1 {
    flex: 100%;
    padding: 12px;
    font-family: 'Times New Roman', Times, serif ;
-   border-radius: 10px; 
+   border-radius: 10px;
+   margin-left: 38px; 
 }
 p {
-    padding: 18px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    background-color: rgb(128, 138, 159);
+    padding: 50px 50px;
+    border-radius: 6px;
+    text-align: center;
+    
+    
 }
 
 div {
-    background-color: rgb(192, 218, 255);
+    background-color: rgb(242, 245, 250);
 }
+
 @media screen and (max-width: 480px) {
     #navbar {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+
+
+    }
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #occupation h2 {
+        box-shadow: -4px 4px 12px #272727;
+    
+
+    }
+
+    .aboutme {
+        align-items: center;
+    }
+
+    img {
+        margin: 0px;
     }
 }
