@@ -65,11 +65,13 @@ h1 {
 #featured {
     columns: 3 auto;
     padding: 12px;
+    margin: 20px;
 }
 
 img {
     width: 100%;
     margin-bottom: 12px;
+    box-shadow: -4px 4px 8px #170000
 
 }
 
@@ -128,8 +130,10 @@ ul {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        gap: 18px;
+        gap: 8px;
         align-items: center;
+
+
     }
 
     .header2 {
@@ -141,5 +145,25 @@ ul {
     ul {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    #featured {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    h2 {
+        margin: 20px;
+        background-color: #cf9eac;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    h1 {
+        display: flex;
+        font-size: 20px;
     }
 }

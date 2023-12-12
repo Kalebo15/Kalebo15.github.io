@@ -71,6 +71,7 @@ body {
     background-position: center 25%;
     position: relative;
     z-index: 1;
+    justify-content: center;
  
 }
 .section2 {
@@ -125,6 +126,7 @@ ul {
     flex-wrap: wrap;
     gap: 24px;
     align-items: center;
+    padding: 0px;
 }
 
 #graphicdesign {
@@ -143,7 +145,7 @@ h1 {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        gap: 18px;
+        gap: 8px;
         align-items: center;
 
 
@@ -152,9 +154,5 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    #section1 {
-        padding: 90px;
     }
 }
