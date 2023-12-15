@@ -10,7 +10,8 @@ body {
 #navbar {
     background: linear-gradient(to bottom, #000000, #170000);
     padding: 12px 22px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
     display: flex;
     flex-direction: row;
 }
